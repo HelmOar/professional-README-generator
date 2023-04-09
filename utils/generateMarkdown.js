@@ -15,8 +15,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
-
 ${data.description}
+
+## Project Motivation
+${data.problem-solved}
+
+## Discoveries and Learnings
+${data.learnings}
 `;
 }
 

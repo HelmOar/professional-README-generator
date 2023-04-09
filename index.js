@@ -13,27 +13,30 @@ const questions = [
         message: "What is the title of your project?"
     },
 
-    // {
-    //     type: "input",
-    //     name: "description",
-    //     message: "Give a brief description of your project."
-    // },
+    {
+        type: "input",
+        name: "description",
+        message: "Give a brief description of your project."
+    },
 
-    // {
-    //     type: "input",
-    //     name: "motivation",
-    //     message: "What was your motivation?"
-    // },
+    {
+        type: "input",
+        name: "motivation",
+        message: "What was your motivation?"
+    },
 
+    {
+        type: "input",
+        name: "problem-solved",
+        message: "What problem does it solve?"
+    }, 
+   
+    {
+        type: "input",
+        name: "learnings",
+        message: "What did you learn?"
+    }, 
     // {
-    //     type: "input",
-    //     name: "problem-solved",
-    //     message: "What problem does it solve?"
-    // }, {
-    //     type: "input",
-    //     name: "learnings",
-    //     message: "What did you learn?"
-    // }, {
     //     type: "input",
     //     name: "installation",
     //     message: "What are the steps required to install your project?"
