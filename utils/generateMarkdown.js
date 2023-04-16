@@ -1,6 +1,6 @@
 
 
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // Function to render badge
 function renderBadge(license) {
@@ -20,26 +20,9 @@ function renderBadge(license) {
   }
 }
 
-
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-// Function to render link
-
-//   if (license !== "None") {
-//     return (
-//       `\n* [License](#license)\n`
-//     )
-//   }
-//   return ''
-// }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
 // Function to render license section
-  if (license !== "None") {
+  if (license) {
     return (
       `## License 📛
       Copyright © ${license}. All rights reserved. 
@@ -51,19 +34,12 @@ function renderLicenseSection(license) {
   return ''
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  ${renderBadge(data.license)}
 ## Description
 ${data.description}
-### Motivation
-${data.motivation}
-### Problem Solved
-${data.problem_solved}
-### Learnings
-${data.learnings}
-
 
 ## Table of Contents
 - [Installation](#installation)
@@ -79,14 +55,15 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-##Contributing
+## Contributing
 ${data.credits}
 
 ## Tests
 ${data.tests}
 
-## License
-${data.license}
+${
+renderLicenseSection(data.license)
+}
 
 ## Questions
 If you have any questions, please contact me at ${data.email}.

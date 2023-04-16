@@ -17,26 +17,9 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Give a brief description of your project."
+        message: "Give a brief description of your project. Consider your motivation, the problems it solves and the learning experiences you had"
     },
 
-    {
-        type: "input",
-        name: "motivation",
-        message: "What was your motivation?"
-    },
-
-    {
-        type: "input",
-        name: "problem_solved",
-        message: "What problem does it solve?"
-    }, 
-   
-    {
-        type: "input",
-        name: "learnings",
-        message: "What did you learn?"
-    }, 
     {
         type: "input",
         name: "installation",
@@ -88,7 +71,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        return writeToFile("README.md.EXAMPLE", generateMarkdown({...answers}));
+        return writeToFile("README.EXAMPLE.md", generateMarkdown({...answers}));
     })
 }
 
