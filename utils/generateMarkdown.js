@@ -67,7 +67,7 @@ renderLicenseSection(data.license)
 
 ## Questions
 If you have any questions, please contact me at ${data.email}.
-You can also find more of my work at( https://github.com/${data.github}/)
+You can also find more of my work at [${data.github}]( https://github.com/${data.github}/)
 
 `;
 }

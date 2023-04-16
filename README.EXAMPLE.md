@@ -1,7 +1,9 @@
-# j
-  undefined
+# Professional README generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Description
-j
+A quick application to create a README.md template
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,23 +14,23 @@ j
 - [Questions](#questions)
 
 ## Installation
-j
+Inquirer package
 
 ## Usage
-j
+In terminal run node index.js. Answer the prompts in terminal. When all prompts are answered a new README file is generated.
 
 ## Contributing
-j
+chemore1@bigpond.com
 
 ## Tests
-j
+No tests
 
 ## License 📛
-      Copyright © Apache. All rights reserved. 
+      Copyright © MIT. All rights reserved. 
       
-      Licensed under the Apache license.
+      Licensed under the MIT license.
 
 ## Questions
-If you have any questions, please contact me at j.
-You can also find more of my work at( https://github.com/github.com/HelmOar/)
+If you have any questions, please contact me at chelmore1@bigpond.com.
+You can also find more of my work at [HelmOar]( https://github.com/HelmOar/)
 
