@@ -45,5 +45,5 @@ This project does not have any tests
 
 ## Questions
 If you have any questions, please contact me at chelmore1@bigpond.com.
-You can also find more of my work at [HelmOar] (https://github.com/HelmOar/)
+You can also find more of my work at (https://github.com/HelmOar/)
 
