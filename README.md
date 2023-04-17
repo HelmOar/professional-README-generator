@@ -26,6 +26,7 @@ Inquirer package from NPM should be installed prior to using the Professional RE
 * Your README can now be edited or modified as you wish
 
 
+![Professional README Generator](https://user-images.githubusercontent.com/122151785/232427997-c44e5473-dc45-453f-bc3c-6674e8ac99e4.png)
 
 https://user-images.githubusercontent.com/122151785/232266478-a0397009-25bb-4cf6-a0af-f9c3ba92cb26.mp4
 
